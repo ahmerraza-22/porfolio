@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Serif", serif;
+}
+.container{
+    background-image: url('../images/emile-perron-xrVDYZRGdw4-unsplash.jpg');
+    background-size: cover;
+    background-position: 20%;
+    height: 40vh;
+}
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: hsla(0, 0, 0, 0.5);
+}
+.profile-pic{
+    width: 15%;
+}
+.profile-pic img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 3px double white;
+    border-radius: 100%;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+.summary{
+    margin: 2px;
+    padding: 5px;
+}
+h2{
+    
+    color: #3f3f3f;
+}
+.info{
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: "NTR", sans-serif;
+    background-position: 20%;
+    text-align: center;
+}
+
+.aboutme{
+    font-size: 1.5rem;
+    font-family: "NTR", sans-serif;
+    text-align: center;
+}
